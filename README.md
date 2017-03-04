@@ -10,8 +10,9 @@ A simple single page application to manage todo list using express and react wit
 
 ## Run
 ```sh
-  npm start
+  npm run dev
 ```
+The application will start at port 3000
 
 ## Features
 
@@ -23,6 +24,6 @@ The application has the folowing features:
 
 ## Demo
 
-Checkout demo at [Demo]()
+Checkout demo at [Demo](http://todo-simple.au-syd.mybluemix.net/)
 
 ![Alt text](/public/images/main_page_screenshot.png?raw=true "Screenshot")
