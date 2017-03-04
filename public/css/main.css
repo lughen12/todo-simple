@@ -1,0 +1,74 @@
+body {
+  font-family: Montserrat,Helvetica Neue,Helvetica,arial,sans-serif;
+  background: #FDFDFD;
+}
+
+.zendesk-sortable-list-empty {
+	text-align: center;
+  padding: 15px;
+  color: #555;
+}
+
+.zendesk-sortable-list-header {
+  background: #777;
+  color: white;
+  padding: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.zendesk-sortable-list-header .badge {
+	background-color: white;
+  color: #777;
+  font-size: 1.05em;
+  margin-left: 7px;
+}
+
+.zendesk-todo-input-container {
+	padding: 15px;
+}
+
+.zendesk-todo-input-container button {
+	margin-left: 15px;
+}
+
+.zendesk-todo-input-container .form-control {
+	display: inline-block;
+  width: 50%;
+}
+
+.zendesk-sortable-list-container {
+	margin-top: 20px;
+}
+
+.zendesk-sortable-list-body {	
+	min-height: 200px;
+  max-height: 500px;
+  overflow-y: auto; 
+	background: #FAFAFA;
+  border: 1px solid #DDD;
+}
+
+.zendesk-sortable-list-body:hover {
+  box-shadow: 0 5px 10px -7px #888888;
+}
+
+.zendesk-sortable-list-item {
+	padding: 15px 20px;
+	background-color: #fff;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.zendesk-sortable-list-item:hover {
+	background: #F6F6F6;
+	cursor: pointer;
+}
+
+.zendesk-todo-total-projects {
+  float: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #777;
+  padding: 10px;
+}
