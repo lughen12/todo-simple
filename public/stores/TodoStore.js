@@ -54,7 +54,7 @@ Dispatcher.register(function(action) {
 		case TodoConstants.MOVE_TODO:
 			if (todos[action.oldListId]) {
 				var todo = todos[action.oldListId][action.oldIndex];
-				todos[action.oldListId].splice(todos[action.oldListId], 1);
+				todos[action.oldListId].splice(action.oldIndex, 1);
 				todos[action.newListId].push(todo);
 			}
 			TodoStore.emitChange();

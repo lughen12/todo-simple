@@ -23,7 +23,7 @@ var SortableList = SortableContainer(function (props) {
               <SortableItem key={'item-' + index} index={index} value={value} />
             );
           })
-        : <p className='zendesk-sortable-list-empty'>There project here.</p>
+        : <p className='zendesk-sortable-list-empty'>No project here.</p>
       }
     </div>
   );
