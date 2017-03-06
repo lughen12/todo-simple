@@ -1,0 +1,21 @@
+{
+  "name": "todo-app",
+  "description": "a simple todo app",
+  "main": "index.js",
+  "authors": [
+    "Le Hung"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/lughen12/todo-simple",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
